@@ -1,0 +1,28 @@
+\begin{table}[]
+\centering
+\caption{Numbers of instructions hoisted in licm (running on unoptimized bitcodes)}
+\label{licm}
+\begin{tabular}{@{}l|lllll@{}}
+\toprule
+               & basic & steens & anders & basicsteens & basicanders \\ \midrule
+400.perlbench  & 3791  & 915    & -      & 3969        & -           \\
+401.bzip2      & 1096  & 2546   & 2673   & 2901        & 3010        \\
+403.gcc        & 19145 & 3739   & -      & 19788       & -           \\
+429.mcf        & 169   & 97     & 150    & 217         & 217         \\
+433.milc       & 4811  & 2743   & 2830   & 4833        & 4833        \\
+444.namd       & 8511  & 3185   & 4390   & 8713        & 9287        \\
+445.gobmk      & 9049  & 4557   & 4597   & 10620       & 10634       \\
+447.dealII     & 48472 & 21577  & 21624  & 48484       & 48484       \\
+450.soplex     & 7618  & 5166   & 5472   & 7642        & 7644        \\
+453.povray     & 11822 & 6289   & 6508   & 12061       & 12153       \\
+456.hmmer      & 5911  & 5158   & 5783   & 9400        & 9923        \\
+458.sjeng      & 969   & 637    & 637    & 1109        & 1123        \\
+462.libquantum & 1204  & 528    & 528    & 1228        & 1228        \\
+464.h264ref    & 17589 & 19089  & 20978  & 28267       & 29563       \\
+470.lbm        & 148   & 432    & 467    & 520         & 520         \\
+471.omnetpp    & 1947  & 975    & 984    & 1954        & 1954        \\
+473.astar      & 926   & 613    & 661    & 930         & 978         \\
+482.sphinx3    & 3758  & 1637   & 1819   & 4156        & 4191        \\
+483.xalancbmk  & 14631 & 8832   & 9071   & 14652       & 14658       \\ \bottomrule
+\end{tabular}
+\end{table}
